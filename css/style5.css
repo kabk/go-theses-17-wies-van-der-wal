@@ -1701,7 +1701,19 @@ background-color: black;
 
 }
 
+@media screen and (max-width: 800px) {
 
+  p {
+      margin: 30px;
+  font-family: 'Kavivanar', cursive;
+  font-size: 32px;
+  line-height: 54px;
+  width: 75%;  
+}
+
+
+
+}  
 
 
 
