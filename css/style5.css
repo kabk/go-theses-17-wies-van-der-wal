@@ -1,0 +1,1716 @@
+
+@font-face {
+    font-family: Kavivanar;
+    src: url(Kavivanar.ttf);
+}
+
+
+
+@media screen {
+
+
+/*general things*/
+
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+  width: 100%;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.chaptitle {
+  display:none;
+}
+
+/*fixed elements header*/
+
+.title {
+  width: 100%;
+  height: 100px;
+  margin:0px;
+  background-color: white;
+  float: left;
+  display: block;
+}
+
+h1 {
+ font-family: 'Kavivanar', cursive;
+ text-transform: uppercase;  
+ font-size: 70px;
+ color: black;
+ font-weight: normal;
+ line-height: 20px;
+ margin-top: 40px;
+ padding-left: 10px;
+}
+
+.sidetitle {
+  width: 25%;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  right:0px;
+  z-index:20;
+  background-color: black;
+}
+
+.sidetitle p {
+  color:white;
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.index{
+  width:50%;
+  background-color: #ecff51;
+  float:left;
+  display: inline-block;
+  height: 600px;
+}
+
+.footnotes {
+  width: 33.33%;
+  background-color: black;
+  height: 380px;
+  z-index: 30;
+  float:left;
+  display: inline-block;
+}
+
+.footnotes p {
+  width:80%;
+  font-size: 13px;
+  line-height: 20px;
+  color: white;
+}
+
+
+/*megadiv exp*/
+
+#megadiv{
+  width: 100%;
+  height: 100px;
+  border: solid blue 1px;
+  z-index:100;
+}
+
+
+/*standaardblokken*/
+
+body {
+  background-color: pink;
+}
+
+#indexintro {
+width: 100%;
+float:left;
+background-color: pink;
+position: relative;
+height: 1200px;
+}
+
+#chapterone {
+width: 100%;
+float:left;
+position: relative;
+height: 700px;
+}
+
+#chapteroneb {
+width: 100%;
+float:left;
+position: relative;
+height: 880px;
+}
+
+#chapteronec {
+width: 100%;
+float:left;
+position: relative;
+height: 480px;
+}
+
+#chapteronee {
+width: 100%;
+float:left;
+position: relative;
+height: 520px;
+}
+
+#chapteronef {
+width: 100%;
+float:left;
+position: relative;
+height: 1000px;
+}
+
+#chapteroneg {
+width: 100%;
+float:left;
+background-color: white;
+position: relative;
+height: 1230px;
+}
+
+#chapteroneh {
+width: 100%;
+float:left;
+position: relative;
+height: 540px;
+}
+
+#chapteronei {
+width: 100%;
+float:left;
+background-color: black;
+position: relative;
+height: 380px;
+z-index: 10;
+}
+
+#chaptertwo {
+width: 100%;
+float:left;
+position: relative;
+height: 980px;
+}
+
+#chaptertwob {
+width: 100%;
+float:left;
+position: relative;
+height: 600px;
+}
+
+#chaptertwoc {
+width: 100%;
+float:left;
+position: relative;
+height: 880px;
+}
+
+#chaptertwod {
+width: 100%;
+float:left;
+position: relative;
+height: 500px;
+}
+
+#chaptertwoe {
+width: 100%;
+float:left;
+position: relative;
+height: 600px;
+}
+
+#chaptertwof {
+width: 100%;
+float:left;
+position: relative;
+height: 850px;
+}
+
+#chaptertwog {
+width: 100%;
+float:left;
+position: relative;
+height: 480px;
+}
+
+#chaptertwoh {
+width: 100%;
+float:left;
+position: relative;
+height: 520px;
+}
+
+#chaptertwoi {
+width: 100%;
+float:left;
+background-color: black;
+position: relative;
+height: 500px;
+z-index: 10;
+}
+
+#chapterthree {
+width: 100%;
+float:left;
+position: relative;
+height: 1290px;
+}
+
+#chapterthreea {
+width: 100%;
+float:left;
+position: relative;
+height: 1160px;
+}
+
+
+#chapterthreeb {
+width: 100%;
+float:left;
+background-color: black;
+position: relative;
+height: 380px;
+z-index: 10;
+}
+
+#chapterthreed {
+width: 100%;
+float:left;
+position: relative;
+height: 1180px;
+background-color: white;
+}
+
+#chapterthreee {
+width: 100%;
+float:left;
+position: relative;
+height: 700px;
+background-color: white;
+}
+
+#chapterthreef {
+width: 100%;
+float:left;
+position: relative;
+height: 400px;
+background-color: black;
+}
+
+/*right left*/
+
+.leftblock {
+  width: 50%;
+  float: left;
+}
+
+.rightblock {
+  width:50%;
+  float: left;
+}
+
+
+
+
+/*quotes and images*/
+
+
+.titlechapter{
+  background-color: none;
+  width: 100%;
+  height: 100px;
+/*  margin-left: 75%;*/
+  top:0px;
+  left:0px;
+  z-index: 22;
+  display: block;
+  position: relative;
+  margin: 0px;
+}
+
+
+
+.titlechapter p{
+  margin: 0px;
+}
+
+.side {
+  width: 25%;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  right:0px;
+  z-index:20;
+  background-color: black;
+}
+
+.side p {
+  color:white;
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 6%;
+}
+
+
+
+
+/*images*/
+.imageblock {
+  float:left;
+  display: inline-block;
+  position: relative;
+  height: 600px;
+  width:50%;
+  background-color: #e8e6d3 ;
+  background-color: #eae5ba;
+}
+
+.imagepad{
+  position: absolute;
+  height:110px;
+  width:90%;
+  bottom: 0;
+  margin-left: 2em;
+}
+
+.imagepad p{
+  padding: 0px;
+  margin: 0px;
+  z-index: 200;
+}
+
+.imageblock p {
+  float: left;
+  margin-bottom: 0px;
+  position: absolute;
+  opacity: 0;
+}
+
+.imageblocklang p {
+  float: left;
+  margin-bottom: 2%;
+  position: absolute;
+  opacity: 0;
+}
+
+.imageblock:hover p {
+  opacity: 1;
+}
+
+.imageblockyellow:hover p {
+  opacity: 1;
+}
+.imageblockliggendlong:hover p {
+  opacity: 1;
+}
+
+.imageblockliggendsmall:hover p {
+  opacity: 1;
+}
+
+.imageblockliggendlanger:hover p {
+  opacity: 1;
+}
+.imageblockliggend:hover p {
+  opacity: 1;
+  z-index: 20;
+}
+
+.imageblockliggendb:hover p {
+  opacity: 1;
+}
+.imageblockyellow:hover p {
+  opacity: 1;
+}
+
+.imageblocklang:hover p {
+  opacity: 1;
+}
+
+
+italic {
+  text-decoration: underline;
+}
+
+.imageblock img {
+  width:80%;
+  margin-top:-20%;
+  margin-left:10%;
+  margin-right:10%;
+  position: relative;
+  z-index: 0;
+}
+
+.imageblockgif {
+  float: left;
+  display: inline-block;
+  height: 520px;
+  width:100%;
+  background-color: #eae5ba;
+  position: relative;
+}
+
+.imageblockgif p {
+  float: left;
+  margin-top: 67%;
+  opacity: 0;
+}
+
+.imageblockgif img {
+  margin-top:5%;
+  margin-left:5%;
+  margin-right:5%;
+  position: relative;
+  z-index: 0;
+}
+
+
+.imageblockyellow {
+  float:left;
+  display: inline-block;
+  height: 600px;
+  width:50%;
+  background-color: #ecff51;
+  position: relative;
+}
+
+.imageblockyellow p {
+  float: left;
+  opacity: 0;
+}
+
+.imageblockyellow img {
+  width:80%;
+  margin-top:-20%;
+  margin-left:10%;
+  margin-right:10%;
+  position: relative;
+  z-index: 0;
+
+}
+
+.imageblocklang {
+  float:left;
+  display: inline-block;
+  position: relative;
+  height: 630px;
+  width:50%;
+  background-color: #eae5ba;
+}
+
+.imageblocklang p {
+  float: left;
+  opacity: 0;
+}
+
+.imageblocklang img {
+  width:80%;
+  margin-top:-20%;
+  margin-left:10%;
+  margin-right:10%;
+  position: relative;
+  z-index: 0;
+}
+
+
+
+.imageblockliggendb {
+  float:left;
+  display: inline-block;
+  height: 320px;
+  width:100%;
+  background-color: black;
+  position: relative;
+  position: relative;
+}
+
+.imageblockwhite {
+  float:left;
+  display: inline-block;
+  height: 600px;
+  width:50%;
+  background-color: white;
+  position: relative;
+}
+
+.imageblockliggendsmall {
+  float:left;
+  display: inline-block;
+  height: 210px;
+  width:100%;
+  background-color: #eae5ba;
+  position: relative;
+
+}
+
+
+.imageblockliggendsmall img {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.imageblockliggendsmall img {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.imageblockliggendsmall p {
+  float: left;
+  margin-top: 20%;
+  opacity: 0;
+}
+
+
+.imageblockliggendlong {
+  float:left;
+  display: inline-block;
+  height: 750px;
+  width:100%;
+  background-color: #eae5ba;
+  position: relative;
+
+}
+
+
+.imageblockliggendlong img {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.imageblockliggend p {
+  float: left;
+  margin-top: 4%;
+  color: white;
+  z-index: 100;
+  position: absolute;
+  opacity: 0;
+}
+
+.imageblockliggendlong p {
+  float: left;
+  margin-top: 20%;
+  opacity: 0;
+  color: white;
+  z-index: 40;
+}
+
+.imageblockliggendlanger p {
+  float: left;
+  opacity: 0;
+}
+
+.imageblockliggend {
+  float:left;
+  display: inline-block;
+  height: 367px;
+  width:100%;
+  background-color: black;
+  position: relative;
+}
+
+.imageblockliggend img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+}
+
+.imageblockliggendlanger {
+  float:left;
+  display: inline-block;
+  height: 550px;
+  width:100%;
+  background-color: white;
+  position: relative;
+}
+
+.imageblockliggendlanger img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+}
+
+.imageblockliggendb img{
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.imageblockliggendb p{
+  float: left;
+  opacity: 0;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 100px solid black;
+  border-left: 100px solid transparent;
+  position: relative;
+  float:right;
+  z-index: 5;
+}
+
+/*quotes*/
+
+.quoteliggend{
+  float: left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 600px;
+}
+
+.quoteliggend p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 50px; 
+  line-height: 55px;
+  text-align: center;
+  margin:auto;
+  margin-top: 10%;
+  width:600px;
+}
+
+
+.quoteliggendshort{
+  float: left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 420px;
+}
+
+.quoteliggendshort p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 50px; 
+  line-height: 55px;
+  text-align: center;
+  margin:auto;
+  margin-top: 10%;
+  width:600px;
+}
+
+.quoteliggendyellow{
+  float: left;
+  display: inline-block;
+  background-color: #ecff51;;
+  width:100%;
+  height: 513px;
+}
+
+.quoteliggendyellow p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 50px; 
+  line-height: 55px;
+  text-align: center;
+  margin:auto;
+  margin-top: 10%;
+  width:600px;
+}
+
+.quote {
+  float:left;
+  display: inline-block;
+  height: 600px;
+  width:50%;
+  background-color: #ecff51;
+}
+
+.quote p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 50px; 
+  line-height: 50px;
+  text-align: center;
+  margin-top:20%;
+}
+
+.quotelang {
+  float:left;
+  display: inline-block;
+  height: 630px;
+  width:50%;
+  background-color: #ecff51;
+}
+
+.quotelang p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 50px; 
+  line-height: 50px;
+  text-align: center;
+  margin-top:20%;
+}
+/*leegte*/
+
+.divleeggeel {
+  float:left;
+  display: inline-block;
+  height: 600px;
+  width:50%;
+  background-color: #ecff51;
+}
+
+.divleegbeige {
+  float:left;
+  display: inline-block;
+  height: 600px;
+  width:50%;
+  background-color: #eae5ba;
+}
+
+.divleegred {
+  float:left;
+  display: inline-block;
+  height: 600px;
+  width:50%;
+  background-color: #ff3100;
+}
+
+/*losse blokken*/
+.intro {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 1200px;
+}
+
+#textblock {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 300px;
+  position: relative;
+}
+
+#textblock40 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 880px;
+  position: relative;
+}
+
+#textblockwhite {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 300px;
+  position: relative;
+}
+
+#textblock11 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 480px;
+  position: relative;
+}
+
+#textblock12 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 480px;
+  position: relative;
+  background-color: #eae5ba;
+}
+#textblock13 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 280px;
+  position: relative;
+  background-color: #ff3100;
+}
+
+#textblock14 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 520px;
+  position: relative;
+  background-color: #ff3100;
+}
+
+#textblock15 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 400px;
+  position: relative;
+}
+
+#textblock16 {
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 540px;
+  position: relative;
+}
+
+#textblock17 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 460px;
+  position: relative;
+}
+
+#textblock18 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 630px;
+  position: relative;
+}
+
+#textblock19 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 540px;
+  position: relative;
+}
+
+#textblock20 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 300px;
+  position: relative;
+}
+
+#textblock21 {
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 980px;
+  position: relative;
+}
+
+#textblock22 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 600px;
+  position: relative;
+}
+
+#textblock22b {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 460px;
+  position: relative;
+}
+
+#textblock23 {
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 420px;
+  position: relative;
+}
+
+#textblock24 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 600px;
+  position: relative;
+}
+
+#textblock25 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 390px;
+  position: relative;
+}
+
+#textblock26 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 280px;
+  position: relative;
+}
+
+#textblock27{
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 570px;
+  position: relative;
+}
+
+#textblock28 {
+  float:left;
+  display: inline-block;
+  background-color:  white;
+  width:100%;
+  height: 600px;
+  position: relative;
+}
+
+#textblock29 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100 ;
+  width:100%;
+  height: 560px;
+  position: relative;
+}
+#textblock30{
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 520px;
+  position: relative;
+}
+
+#textblock31 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 690px;
+  position: relative;
+}
+
+#textblock32 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 500px;
+  position: relative;
+}
+
+#textblock33 {
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 380px;
+  position: relative;
+}
+
+#textblock34 {
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 390px;
+  position: relative;
+}
+
+#textblock35 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 600px;
+  position: relative;
+}
+
+#textblock36 {
+  float:left;
+  display: inline-block;
+  background-color: #ff3100;
+  width:100%;
+  height: 600px;
+  position: relative;
+}
+
+#textblock37 {
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 530px;
+  position: relative;
+}
+
+#textblock38 {
+  float:left;
+  display: inline-block;
+  background-color:  #ff3100;
+  width:100%;
+  height: 630px;
+  position: relative;
+}
+
+#textblock39 {
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 480px;
+  position: relative;
+}
+
+#textblock41 {
+  float:left;
+  display: inline-block;
+  background-color: white;
+  width:100%;
+  height: 600px;
+  position: relative;
+}
+
+#textblock42 {
+  float:left;
+  display: inline-block;
+  background-color: #eae5ba;
+  width:100%;
+  height: 900px;
+  position: relative;
+}
+
+
+.colophon {
+  float:left;
+  display: inline-block;
+  width:100%;
+  height: 100px;
+  position: relative;
+}
+
+.colophon p {
+  width:80%;
+  text-transform: uppercase;  
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+
+
+
+
+h3 {
+  width: 400px;
+  height: 100px;
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  line-height: 20px;
+  position: absolute;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  top: 182px;
+  right:-122px;
+}
+
+
+
+
+
+
+
+
+/*textstyles*/
+
+.index p, .par1 p, .beeld p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  line-height: 20px;
+  width:70%;
+}
+
+p {
+  margin: 30px;
+  font-family: 'Kavivanar', cursive;
+  font-size: 16px;
+  line-height: 27px;
+  width: 75%;
+  
+}
+
+
+
+
+
+} /* end media screen >> begin media print*/
+
+
+
+
+
+
+
+
+@media print {
+
+  /*standardstuff*/
+
+  @page {
+    size: 210mm 297mm; 
+    margin: 0 0 -4px;
+    /* landscape */
+    /* you can also specify margins here: */ /* for compatibility with both A4 and Letter */
+  }
+
+  div {
+    box-sizing: border-box;
+  }
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body { height: 100% }
+
+body{
+  -webkit-print-color-adjust: exact;
+} 
+
+.titlechapter, .divleegred, .divleegbeige, .divleeggeel {
+  display:none;
+}
+
+.index, .imageblock, .intro, .title {
+  page-break-after: always;
+  page-break-before: always;
+  display: block;
+}
+
+.quoteliggend, .quoteliggendyellow, .quote, .quotelang, .page {
+  page-break-after: always;
+  page-break-before: always;
+  display: block;
+}
+
+
+
+#textblock, #textblockwhite, #textblock11, #textblock12, #textblock13, #textblock14, #textblock16, #textblock17, #textblock18, #textblock19 {
+  page-break-after: always;
+  page-break-before: always;
+  display: block;
+  height: 25mm;
+  page-break-inside: avoid;
+}
+
+#textblock20, #textblock21, #textblock22, #textblock22b,  #textblock23, #textblock24, #textblock25, #textblock26, #textblock27, #textblock28, #textblock29, #textblock30 {
+  page-break-after: always;
+  page-break-before: always;
+  display: block;
+  height: 25mm;
+  page-break-inside: avoid;
+}
+
+#textblock30, #textblock31, #textblock33, #textblock32, #textblock34, #textblock35, #textblock36, #textblock37 {
+  page-break-after: always;
+  page-break-before: always;
+  display: block;
+  height: 25mm;
+  page-break-inside: avoid;
+}
+
+
+div .imageblock {
+    page-break-after: always;
+}
+
+p, img { page-break-inside: avoid;}
+
+.quoteliggend {page-break-inside: avoid}
+
+.chap1par1 p {
+  color: black;
+}
+
+.title h1 {
+   font-family: 'Kavivanar', cursive;
+   font-size: 55pt;
+  text-transform: uppercase;  
+  font-weight: normal;
+  padding: 20mm;
+  text-align: center;
+}
+
+/*.imagepad { 
+position: absolute;
+bottom: 0;
+}
+*/
+/*Text Styles*/
+
+p {
+  margin-top: 30px;
+  margin-left: 60px;
+  font-family: 'Kavivanar', cursive;
+  font-size: 16px;
+  line-height: 27px;
+/*font-family: 'PT Serif', serif;
+    font-size: 22px;
+   line-height: 25px;*/
+  width: 130mm;
+}
+
+h2 {
+ 
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 40px;
+  color: black;
+  font-weight: normal;
+  line-height: 20px;
+  float: left;
+}
+
+h3 {
+  display:none;
+}
+
+.chaptitle {
+  display: block;
+  float:left;
+  margin-left: 30mm;
+  margin-top: 30px;
+  margin-bottom: 100px;
+/*  border: solid 1px black;*/
+}
+
+.chaptitle img {
+  width:20mm;
+}
+
+.ppp {
+  float: left;
+  display: block;
+}
+
+.quoteliggend {
+  margin:auto;
+  display:block;
+}
+
+.sidetitle p {
+  padding-left: 25mm;
+  padding-right: 30mm;
+  padding-top: 100mm;
+  text-align: center;
+}
+
+.index p {
+   margin-left: 60px;
+   text-transform: uppercase;
+   width: 130mm;
+   padding-top: 0mm;
+  }
+
+
+.quoteliggend p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 50px; 
+  line-height: 55px;
+  text-align: center;
+  width:600px;
+  color: black;
+  padding-top: 100px;
+  padding-left: 8mm;
+}
+
+.quoteliggendyellow p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 50px; 
+  line-height: 55px;
+  text-align: center;
+  width:600px;
+  color: black;
+  padding-top: 100px;
+  padding-left: 8mm;
+}
+
+.quoteliggendshort p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 50px; 
+  line-height: 55px;
+  text-align: center;
+  width:600px;
+  color: black;
+  padding-top: 100px;
+  padding-left: 8mm;
+}
+
+.imageblock img {
+  width: 120mm;
+  padding-top:30mm;
+  padding-left: 40mm;
+  padding-right: 40mm;
+  padding-bottom: 30mm;
+}
+
+
+
+.imagepad {
+  position: absolute;
+}
+
+
+.imageblockgif {
+  width: 140mm;
+  padding:30mm;
+}
+
+.imageblockgif img {
+  display: inline-block;
+  float: left;
+  width: 40mm;
+  padding:5mm;
+}
+
+.imageblockliggend img {
+  width: 150mm;
+  padding:30mm;
+}
+
+.imageblockliggendlong img {
+  width: 150mm;
+  padding:30mm;
+}
+
+.imageblocklang img {
+  width: 100mm;
+  padding:30mm;
+}
+
+.imageblockyellow img {
+  width: 150mm;
+  padding:30mm;
+}
+
+.imageblockliggendb img{
+  width: 150mm;
+  padding:30mm;
+}
+
+.imageblockliggendlanger img{
+  width: 150mm;
+  padding:30mm;
+}
+.imageblockwhite img{
+  width: 150mm;
+  padding:30mm;
+}
+
+.imageblockgif  img {
+  width: 20mm;
+  padding:10mm;
+}
+
+.imageblockliggendsmall img{
+  width: 150mm;
+  padding:30mm;
+}
+
+
+
+
+.quote {
+  margin:auto;
+  display:block;
+}
+
+
+.quote p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 120px; 
+  line-height: 130px;
+  text-align: center;
+  width:600px;
+  color: black;
+  padding-top: 100px;
+  padding-left: 5mm;
+  
+}
+
+.quotelang {
+  margin:auto;
+  display:block;
+}
+
+
+.quotelang p {
+  font-family: 'Kavivanar', cursive;
+  text-transform: uppercase;  
+  font-size: 120px; 
+  line-height: 130px;
+  text-align: center;
+  width:600px;
+  color: black;
+  padding-top: 100px;
+  
+}
+
+.footnotes p {
+  width: 50mm;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+.leftblock, .rightblock {
+  display:block;
+  width: 100%;
+}
+
+indexintro{background-color: pink;
+}
+
+.imageblockliggend {
+  height: 450px;
+}
+.intro {
+  position: relative;
+}
+.sidetitle {
+  display:none;
+}
+
+.title{
+  min-height: 240px;
+}
+
+h1 {
+  width: 600px;
+  line-height: 70px;
+  text-align: center;
+  margin: auto;
+  padding-top:50px;
+}
+
+#indexintro {
+height: 2300px;
+}
+
+#chapterone {
+height: 1300px;
+}
+
+#chapteroneb {
+height: 1760px;
+}
+
+#chapteronec {
+height: 960px;
+}
+
+#chapteronee {
+width: 100%;
+float:left;
+position: relative;
+height: 1040px;
+}
+
+#chapteronef {
+width: 100%;
+float:left;
+position: relative;
+height: 2000px;
+}
+
+#chapteroneg {
+width: 100%;
+float:left;
+background-color: white;
+position: relative;
+height:2460px;
+}
+
+#chapteroneh {
+width: 100%;
+float:left;
+position: relative;
+height: 1080px;
+}
+
+#chapteronei {
+width: 100%;
+float:left;
+background-color: black;
+position: relative;
+height: 760px;
+z-index: 10;
+}
+
+#chaptertwo {
+width: 100%;
+float:left;
+position: relative;
+height: 1760px;
+}
+
+#chaptertwob {
+width: 100%;
+float:left;
+position: relative;
+height: 1200px;
+}
+
+#chaptertwoc {
+width: 100%;
+float:left;
+position: relative;
+height: 1960px;
+}
+
+#chaptertwod {
+width: 100%;
+float:left;
+position: relative;
+height: 1000px;
+}
+
+#chaptertwoe {
+width: 100%;
+float:left;
+position: relative;
+height: 1200px;
+}
+
+#chaptertwof {
+width: 100%;
+float:left;
+position: relative;
+height: 1700px;
+}
+
+#chaptertwog {
+width: 100%;
+float:left;
+position: relative;
+height: 960px;
+}
+
+#chaptertwoh {
+width: 100%;
+float:left;
+position: relative;
+height: 1040px;
+}
+
+#chaptertwoi {
+width: 100%;
+float:left;
+background-color: black;
+position: relative;
+height: 1000px;
+z-index: 10;
+}
+
+#chapterthree {
+width: 100%;
+float:left;
+position: relative;
+height: 2480px;
+}
+
+#chapterthreea {
+width: 100%;
+float:left;
+position: relative;
+height: 2320px;
+}
+
+
+#chapterthreeb {
+width: 100%;
+float:left;
+background-color: black;
+position: relative;
+height: 760px;
+z-index: 10;
+}
+
+#chapterthreed {
+width: 100%;
+float:left;
+position: relative;
+height: 2360px;
+background-color: white;
+}
+
+#chapterthreee {
+width: 100%;
+float:left;
+position: relative;
+height: 1000px;
+background-color: white;
+}
+
+#chapterthreef {
+width: 100%;
+float:left;
+position: relative;
+height: 800px;
+background-color: black;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
