@@ -73,8 +73,8 @@ h1 {
 
 .index{
   width:50%;
-  background-color: #ecff51;
-  float:left;
+  background-color: #FFF591;
+    float:left;
   display: inline-block;
   height: 600px;
 }
@@ -93,6 +93,7 @@ h1 {
   font-size: 13px;
   line-height: 20px;
   color: white;
+  letter-spacing: 0.8px;
 }
 
 
@@ -109,13 +110,13 @@ h1 {
 /*standaardblokken*/
 
 body {
-  background-color: pink;
+  background-color: #efbfe6;
 }
 
 #indexintro {
 width: 100%;
 float:left;
-background-color: pink;
+background-color: #efbfe6;
 position: relative;
 height: 1200px;
 }
@@ -125,6 +126,14 @@ width: 100%;
 float:left;
 position: relative;
 height: 700px;
+}
+
+#chapteronex {
+width: 100%;
+float:left;
+position: relative;
+height: 600px;
+background-color: #efbfe6;
 }
 
 #chapteroneb {
@@ -175,7 +184,7 @@ width: 100%;
 float:left;
 background-color: black;
 position: relative;
-height: 380px;
+height: 430px;
 z-index: 10;
 }
 
@@ -183,7 +192,7 @@ z-index: 10;
 width: 100%;
 float:left;
 position: relative;
-height: 980px;
+height: 860px;
 }
 
 #chaptertwob {
@@ -204,7 +213,7 @@ height: 880px;
 width: 100%;
 float:left;
 position: relative;
-height: 500px;
+height: 480px;
 }
 
 #chaptertwoe {
@@ -251,6 +260,7 @@ position: relative;
 height: 1290px;
 }
 
+
 #chapterthreea {
 width: 100%;
 float:left;
@@ -272,25 +282,35 @@ z-index: 10;
 width: 100%;
 float:left;
 position: relative;
-height: 1180px;
-background-color: white;
+height: 1080px;
+
 }
 
 #chapterthreee {
 width: 100%;
 float:left;
 position: relative;
-height: 700px;
-background-color: white;
+height: 600px;
 }
 
 #chapterthreef {
 width: 100%;
 float:left;
 position: relative;
-height: 400px;
-background-color: black;
+height: 1000px;
 }
+
+.colophon {
+/*  background-color: black;*/
+  width:100%;
+  height:900px;
+  display: inline-block;
+  position: relative;
+  margin-top: 100px;
+  background-color: black;
+  padding-top: 2em;
+}
+
 
 /*right left*/
 
@@ -358,7 +378,7 @@ background-color: black;
   height: 600px;
   width:50%;
   background-color: #e8e6d3 ;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
 }
 
 .imagepad{
@@ -374,6 +394,31 @@ background-color: black;
   margin: 0px;
   z-index: 200;
 }
+
+.imagepadlig{
+  position: absolute;
+  height:110px;
+  width:90%;
+  bottom: 0;
+  margin-left: 2em;
+}
+
+.imagepadlig p{
+ /* padding: 0px;*/
+  margin-left: 0;
+  z-index: 200;
+}
+
+.imagepadlig.zwart p{
+ /* padding: 0px;*/
+  margin-left: 0;
+  z-index: 200;
+  color: black;
+}
+.imageblockliggend.lang {
+  height: 560px;
+}
+
 
 .imageblock p {
   float: left;
@@ -442,7 +487,7 @@ italic {
   display: inline-block;
   height: 520px;
   width:100%;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   position: relative;
 }
 
@@ -466,8 +511,8 @@ italic {
   display: inline-block;
   height: 600px;
   width:50%;
-  background-color: #ecff51;
-  position: relative;
+  background-color: #FFF591;
+    position: relative;
 }
 
 .imageblockyellow p {
@@ -491,7 +536,7 @@ italic {
   position: relative;
   height: 630px;
   width:50%;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
 }
 
 .imageblocklang p {
@@ -534,7 +579,7 @@ italic {
   display: inline-block;
   height: 210px;
   width:100%;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   position: relative;
 
 }
@@ -564,11 +609,16 @@ italic {
   display: inline-block;
   height: 750px;
   width:100%;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   position: relative;
 
 }
 
+.imageblockliggendlong.wit {
+  background-color: white;
+  min-height:600px;
+  position:relative;
+}
 
 .imageblockliggendlong img {
   width: 100%;
@@ -587,7 +637,7 @@ italic {
 
 .imageblockliggendlong p {
   float: left;
-  margin-top: 20%;
+  margin-top: 0%;
   opacity: 0;
   color: white;
   z-index: 40;
@@ -617,10 +667,14 @@ italic {
 .imageblockliggendlanger {
   float:left;
   display: inline-block;
-  height: 550px;
+  height: 520px;
   width:100%;
   background-color: white;
   position: relative;
+}
+
+.imageblockliggendlanger.kort{
+  height:480px;
 }
 
 .imageblockliggendlanger img {
@@ -695,10 +749,13 @@ italic {
 .quoteliggendyellow{
   float: left;
   display: inline-block;
-  background-color: #ecff51;;
+  background-color: #FFF591;
+
   width:100%;
   height: 513px;
 }
+
+  
 
 .quoteliggendyellow p {
   font-family: 'Kavivanar', cursive;
@@ -716,7 +773,7 @@ italic {
   display: inline-block;
   height: 600px;
   width:50%;
-  background-color: #ecff51;
+  background-color: #FFF591;
 }
 
 .quote p {
@@ -733,7 +790,7 @@ italic {
   display: inline-block;
   height: 630px;
   width:50%;
-  background-color: #ecff51;
+  background-color: #FFF591;
 }
 
 .quotelang p {
@@ -751,7 +808,7 @@ italic {
   display: inline-block;
   height: 600px;
   width:50%;
-  background-color: #ecff51;
+  background-color: #FFF591;
 }
 
 .divleegbeige {
@@ -759,7 +816,7 @@ italic {
   display: inline-block;
   height: 600px;
   width:50%;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
 }
 
 .divleegred {
@@ -767,14 +824,14 @@ italic {
   display: inline-block;
   height: 600px;
   width:50%;
-  background-color: #ff3100;
+  background-color: #f44c3d;
 }
 
 /*losse blokken*/
 .intro {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 1200px;
 }
@@ -782,7 +839,7 @@ italic {
 #textblock {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 300px;
   position: relative;
@@ -822,7 +879,7 @@ italic {
   width:100%;
   height: 480px;
   position: relative;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
 }
 #textblock13 {
   float:left;
@@ -831,7 +888,7 @@ italic {
   width:100%;
   height: 280px;
   position: relative;
-  background-color: #ff3100;
+  background-color: #f44c3d;
 }
 
 #textblock14 {
@@ -841,13 +898,13 @@ italic {
   width:100%;
   height: 520px;
   position: relative;
-  background-color: #ff3100;
+  background-color: #f44c3d;
 }
 
 #textblock15 {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 400px;
   position: relative;
@@ -856,7 +913,7 @@ italic {
 #textblock16 {
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
   height: 540px;
   position: relative;
@@ -865,7 +922,7 @@ italic {
 #textblock17 {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 460px;
   position: relative;
@@ -883,7 +940,7 @@ italic {
 #textblock19 {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 540px;
   position: relative;
@@ -892,7 +949,7 @@ italic {
 #textblock20 {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 300px;
   position: relative;
@@ -901,7 +958,7 @@ italic {
 #textblock21 {
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
   height: 980px;
   position: relative;
@@ -928,7 +985,7 @@ italic {
 #textblock23 {
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
   height: 420px;
   position: relative;
@@ -937,7 +994,7 @@ italic {
 #textblock24 {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 600px;
   position: relative;
@@ -955,7 +1012,7 @@ italic {
 #textblock26 {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 280px;
   position: relative;
@@ -964,7 +1021,7 @@ italic {
 #textblock27{
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
   height: 570px;
   position: relative;
@@ -982,7 +1039,7 @@ italic {
 #textblock29 {
   float:left;
   display: inline-block;
-  background-color: #ff3100 ;
+  background-color: #f44c3d ;
   width:100%;
   height: 560px;
   position: relative;
@@ -999,7 +1056,7 @@ italic {
 #textblock31 {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 690px;
   position: relative;
@@ -1017,7 +1074,7 @@ italic {
 #textblock33 {
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
   height: 380px;
   position: relative;
@@ -1026,7 +1083,7 @@ italic {
 #textblock34 {
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
   height: 390px;
   position: relative;
@@ -1044,7 +1101,7 @@ italic {
 #textblock36 {
   float:left;
   display: inline-block;
-  background-color: #ff3100;
+  background-color: #f44c3d;
   width:100%;
   height: 600px;
   position: relative;
@@ -1053,7 +1110,7 @@ italic {
 #textblock37 {
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
   height: 530px;
   position: relative;
@@ -1062,7 +1119,7 @@ italic {
 #textblock38 {
   float:left;
   display: inline-block;
-  background-color:  #ff3100;
+  background-color:  #f44c3d;
   width:100%;
   height: 630px;
   position: relative;
@@ -1071,7 +1128,7 @@ italic {
 #textblock39 {
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
   height: 480px;
   position: relative;
@@ -1089,18 +1146,19 @@ italic {
 #textblock42 {
   float:left;
   display: inline-block;
-  background-color: #eae5ba;
+  background-color: #EBDED5;
   width:100%;
-  height: 900px;
+  height: 600px;
   position: relative;
 }
+
 
 
 .colophon {
   float:left;
   display: inline-block;
   width:100%;
-  height: 100px;
+  height: 800px;
   position: relative;
 }
 
@@ -1109,6 +1167,7 @@ italic {
   text-transform: uppercase;  
   font-size: 16px;
   line-height: 20px;
+  margin-left: 2em;
   color: white;
 }
 
@@ -1132,6 +1191,7 @@ h3 {
     transform: rotate(90deg);
   top: 182px;
   right:-122px;
+  opacity:0.8;
 }
 
 
@@ -1159,8 +1219,25 @@ p {
   font-size: 16px;
   line-height: 27px;
   width: 75%;
+  opacity: 0.8;
+  font-weight: normal;
   
 }
+
+.sidetitle p {
+/* 
+ padding-left: 25mm;
+  padding-right: 30mm;
+  padding-top: 100mm;
+  text-align: center;*/
+
+  opacity: 0.9;
+  
+}
+
+
+
+
 
 
 
@@ -1202,6 +1279,16 @@ body{
   -webkit-print-color-adjust: exact;
 } 
 
+.sidetitle p {
+
+ padding-left: 25mm;
+  padding-right: 30mm;
+  padding-top: 100mm;
+  text-align: center;
+
+  opacity: 0.9;
+  
+}
 .titlechapter, .divleegred, .divleegbeige, .divleeggeel {
   display:none;
 }
@@ -1212,7 +1299,7 @@ body{
   display: block;
 }
 
-.quoteliggend, .quoteliggendyellow, .quote, .quotelang, .page {
+.quoteliggend, .quoteliggendyellow, .quote, .quotelang, .page, .colophon {
   page-break-after: always;
   page-break-before: always;
   display: block;
@@ -1228,12 +1315,16 @@ body{
   page-break-inside: avoid;
 }
 
-#textblock20, #textblock21, #textblock22, #textblock22b,  #textblock23, #textblock24, #textblock25, #textblock26, #textblock27, #textblock28, #textblock29, #textblock30 {
+#textblock20, .colophon, #textblock21, #textblock22, #textblock22b,  #textblock23, #textblock24, #textblock25, #textblock26, #textblock27, #textblock28, #textblock29, #textblock30 {
   page-break-after: always;
   page-break-before: always;
   display: block;
   height: 25mm;
   page-break-inside: avoid;
+}
+
+.colophon p{
+  color: black;
 }
 
 #textblock30, #textblock31, #textblock33, #textblock32, #textblock34, #textblock35, #textblock36, #textblock37 {
@@ -1323,12 +1414,7 @@ h3 {
   display:block;
 }
 
-.sidetitle p {
-  padding-left: 25mm;
-  padding-right: 30mm;
-  padding-top: 100mm;
-  text-align: center;
-}
+
 
 .index p {
    margin-left: 60px;
@@ -1376,11 +1462,40 @@ h3 {
 
 .imageblock img {
   width: 120mm;
+  height: 90mm;
   padding-top:30mm;
   padding-left: 40mm;
   padding-right: 40mm;
-  padding-bottom: 30mm;
+  padding-bottom: 140mm;
 }
+
+.imageblock.vierkant img {
+  width: 140mm;
+  height: 140mm;
+  padding-top:30mm;
+  padding-left: 35mm;
+  padding-right: 20mm;
+  padding-bottom: 90mm;
+}
+
+.imageblockyellow.vierkant img {
+  width: 140mm;
+  height: 140mm;
+  padding-top:30mm;
+  padding-left: 35mm;
+  padding-right: 20mm;
+  padding-bottom: 90mm;
+}
+
+.imageblock.clock img {
+  width: 120mm;
+  height: 160mm;
+  padding-top:30mm;
+  padding-left: 50mm;
+  padding-right: 25mm;
+  padding-bottom: 70mm;
+}
+
 
 
 
@@ -1402,9 +1517,19 @@ h3 {
 }
 
 .imageblockliggend img {
-  width: 150mm;
+  height: 80mm;
   padding:30mm;
+  padding-left: 30mm;
+  padding-bottom:150mm;
 }
+
+.imageblockliggend.mid img {
+  height: 80mm;
+  padding:30mm;
+  padding-left: 40mm;
+  padding-bottom:150mm;
+}
+
 
 .imageblockliggendlong img {
   width: 150mm;
@@ -1423,7 +1548,46 @@ h3 {
 
 .imageblockliggendb img{
   width: 150mm;
+  height: 110mm;
+  padding-top:30mm;
+  padding-left: 30mm;
+  padding-right: 25mm;
+  padding-bottom: 120mm;
+}
+
+.imageblocklang.film img {
+  width: 100mm;
+  height: 140mm;
+  padding-top:30mm;
+  padding-left: 55mm;
+  padding-right: 25mm;
+  padding-bottom: 90mm;
+}
+
+.imageblock.film img {
+  width: 100mm;
+  height: 140mm;
+  padding-top:30mm;
+  padding-left: 55mm;
+  padding-right: 25mm;
+  padding-bottom: 90mm;
+}
+
+
+.imageblockliggendlanger.kort img{
+  width:150;
+  height: 110mm;
   padding:30mm;
+  padding-left: 30mm;
+  padding-bottom:120mm;
+}
+
+.imageblockliggendlong.wit img{
+  width:150;
+  height: 160mm;
+  padding:30mm;
+  padding-left: 30mm;
+  padding-bottom:70mm;
 }
 
 .imageblockliggendlanger img{
@@ -1440,9 +1604,25 @@ h3 {
   padding:10mm;
 }
 
+.imagepad.turt {
+  display:none;
+}
+
 .imageblockliggendsmall img{
   width: 150mm;
+  height: 40mm;
   padding:30mm;
+  padding-bottom: 190mm;
+
+}
+
+.imageblockliggend.lang img{
+  width: 140mm;
+  height: 130mm;
+  padding-top:30mm;
+  padding-left: 35mm;
+  padding-right: 20mm;
+  padding-bottom: 100mm;
 }
 
 
@@ -1501,12 +1681,14 @@ h3 {
   width: 100%;
 }
 
-indexintro{background-color: pink;
+indexintro{background-color: #efbfe6;
 }
 
 .imageblockliggend {
   height: 450px;
 }
+
+
 .intro {
   position: relative;
 }
@@ -1576,7 +1758,7 @@ width: 100%;
 float:left;
 background-color: black;
 position: relative;
-height: 760px;
+height: 860px;
 z-index: 10;
 }
 
@@ -1584,7 +1766,7 @@ z-index: 10;
 width: 100%;
 float:left;
 position: relative;
-height: 1760px;
+height: 1720px;
 }
 
 #chaptertwob {
@@ -1652,6 +1834,10 @@ position: relative;
 height: 2480px;
 }
 
+#chapterthree#one {
+  height: 2280;
+}
+
 #chapterthreea {
 width: 100%;
 float:left;
@@ -1673,29 +1859,75 @@ z-index: 10;
 width: 100%;
 float:left;
 position: relative;
-height: 2360px;
-background-color: white;
+height: 2160px;
 }
 
 #chapterthreee {
 width: 100%;
 float:left;
 position: relative;
-height: 1000px;
-background-color: white;
+height: 900px;
+/*background-color: white;*/
 }
 
 #chapterthreef {
 width: 100%;
 float:left;
 position: relative;
-height: 800px;
-background-color: black;
+height: 2000px;
+/*background-color: black;*/
+}
+
+.imageblock img {
+  width:60%;
+  margin-top:-5%;
+  margin-left:20%;
+  margin-right:20%;
+  position: relative;
+  z-index: 0;
+}
+
+.imageblocklang img {
+  width:70%;
+  margin-top:-5%;
+  margin-left:15%;
+  margin-right:15%;
+  position: relative;
+  z-index: 0;
+}
+
+.imageblockliggend.lang {
+height:780px;
+}
+
+.imageblockliggendlong.wit {
+height:1000px;
+}
+
+.imageblockyellow img {
+  width:60%;
+  margin-top:-5%;
+  margin-left:20%;
+  margin-right:20%;
+  position: relative;
+  z-index: 0;
+}
+.imageblockliggendb {
+  height: 600px;
+}
+
+.imageblockliggendsmall {
+  height: 410px;
 }
 
 
+.imageblockliggendlanger.kort {
+  height:600px;
+}
 
-
+#chaptertwob {
+  height:1400px;
+}
 
 }  
 
